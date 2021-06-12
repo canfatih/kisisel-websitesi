@@ -1,0 +1,20 @@
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_value error_reporting E_ALL & ~E_NOTICE
+   php_flag display_errors On
+   php_value error_reporting E_WARNING
+   php_value SMTP "mail.fatihcan.com.tr"
+   php_value smtp_port 465
+</IfModule>
+<IfModule lsapi_module>
+   php_value error_reporting E_ALL & ~E_NOTICE
+   php_flag display_errors On
+   php_value error_reporting E_WARNING
+   php_value SMTP "mail.fatihcan.com.tr"
+   php_value smtp_port 465
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
